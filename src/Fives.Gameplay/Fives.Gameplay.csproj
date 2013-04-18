@@ -39,9 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GuessComparer.cs" />
     <Compile Include="GuessResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ValidGuess.cs" />
+    <Compile Include="ValidWord.cs" />
     <Compile Include="WordSelector.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
