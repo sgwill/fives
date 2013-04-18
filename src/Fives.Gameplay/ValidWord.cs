@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace Fives.Gameplay
 {
-	public class ValidGuess
+	public class ValidWord
 	{
-		public bool GuessIsValid(string word)
+		public bool WordIsValid(string word)
 		{
 			if (word.Length != 5)
 				return false;
