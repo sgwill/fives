@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{97BEB1
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fives.Console", "src\Fives.Console\Fives.Console.csproj", "{9E30ED52-9DE6-4CC5-800F-288B84682E7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{A1787C41-8887-4054-BAB7-7EBE58B0EFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1787C41-8887-4054-BAB7-7EBE58B0EFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1787C41-8887-4054-BAB7-7EBE58B0EFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E30ED52-9DE6-4CC5-800F-288B84682E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E30ED52-9DE6-4CC5-800F-288B84682E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E30ED52-9DE6-4CC5-800F-288B84682E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E30ED52-9DE6-4CC5-800F-288B84682E7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

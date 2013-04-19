@@ -125,5 +125,15 @@ namespace Fives.Gameplay.Test
 			Assert.Equal(4, result.InPlace);
 			Assert.Equal(4, result.Matches);
 		}
+
+		[Fact]
+		public void GuessComparer_4Match_4InPlace_IgnoresCase()
+		{
+			GuessComparer comparer = new GuessComparer();
+			var result = comparer.CompareGuess("abcdf", "ABCDE");
+
+			Assert.Equal(4, result.InPlace);
+			Assert.Equal(4, result.Matches);
+		}
 	}
 }

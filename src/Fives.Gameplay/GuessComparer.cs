@@ -9,11 +9,13 @@ namespace Fives.Gameplay
 
 		public GuessResult CompareGuess(string guess, string word)
 		{
+			guess = guess.ToUpper();
+			word = word.ToUpper();
 			GuessResult result = new GuessResult();
 
 			if (valid.WordIsValid(guess))
 			{
-				if (guess.ToUpper() == word.ToUpper())
+				if (guess == word)
 				{
 					result.Matches = 5;
 					result.InPlace = 5;

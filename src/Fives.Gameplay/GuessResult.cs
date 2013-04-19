@@ -6,5 +6,6 @@ namespace Fives.Gameplay
 	{
 		public int Matches { get; set; }
 		public int InPlace { get; set; }
+		public int Guesses { get; set; }
 	}
 }
